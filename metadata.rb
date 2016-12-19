@@ -1,0 +1,12 @@
+name 'hdeploy'
+maintainer 'Nghiem Ba Hieu'
+maintainer_email 'hi3unb@gmail.com'
+license 'all_rights'
+description 'Installs/Configures rabbitmq and memcached'
+long_description 'Installs/Configures rabbitmq and memcached'
+version '0.1.7'
+
+depends 'apt', '~> 4.0.0'
+depends 'rabbitmq', '~> 4.10.0'
+depends 'firewall', '~> 2.4'
+depends 'memcached', '~> 3.0.1'
